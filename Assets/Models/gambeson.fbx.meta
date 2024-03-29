@@ -83,6 +83,25 @@ ModelImporter:
     100154: UpperArm.R
     100156: UpperLeg.L
     100158: UpperLeg.R
+    100160: FootIK.L_end_end
+    100162: FootIK.R_end_end
+    100164: HandItem.L_end_end
+    100166: HandItem.R_end_end
+    100168: Head_end_end
+    100170: Index_3.L_end_end
+    100172: Index_3.R_end_end
+    100174: KneeControl.L_end_end
+    100176: KneeControl.R_end_end
+    100178: Little_3.L_end_end
+    100180: Little_3.R_end_end
+    100182: Middle_3.L_end_end
+    100184: Middle_3.R_end_end
+    100186: Ring_3.L_end_end
+    100188: Ring_3.R_end_end
+    100190: Thumb_3.L_end_end
+    100192: Thumb_3.R_end_end
+    100194: Toes.L_end_end
+    100196: Toes.R_end_end
     400000: Clavicle.L
     400002: Clavicle.R
     400004: Foot.L
@@ -163,6 +182,25 @@ ModelImporter:
     400154: UpperArm.R
     400156: UpperLeg.L
     400158: UpperLeg.R
+    400160: FootIK.L_end_end
+    400162: FootIK.R_end_end
+    400164: HandItem.L_end_end
+    400166: HandItem.R_end_end
+    400168: Head_end_end
+    400170: Index_3.L_end_end
+    400172: Index_3.R_end_end
+    400174: KneeControl.L_end_end
+    400176: KneeControl.R_end_end
+    400178: Little_3.L_end_end
+    400180: Little_3.R_end_end
+    400182: Middle_3.L_end_end
+    400184: Middle_3.R_end_end
+    400186: Ring_3.L_end_end
+    400188: Ring_3.R_end_end
+    400190: Thumb_3.L_end_end
+    400192: Thumb_3.R_end_end
+    400194: Toes.L_end_end
+    400196: Toes.R_end_end
     4300000: Gambeson
     7400000: Rig|Idle
     7400002: Rig|T_Pose
