@@ -32,7 +32,7 @@ public class EquipUI : MonoBehaviour, IPointerClickHandler
             AddOrRemoveClothes("empty_hand_r", "HandRight", "halberd", 5);
         else if (gameObject.name == "Cuirass")
             AddOrRemoveClothes("no_armor", "ChestArmor", "cuirass", 6);
-        else if (gameObject.name == "Boot")
+        else if (gameObject.name == "Boots")
             AddOrRemoveClothes("naked_slug", "Feet", "boots", 7);
     }
 
