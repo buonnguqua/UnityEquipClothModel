@@ -2,25 +2,25 @@
 
 public class ChangeGear : MonoBehaviour
 {
-    private Equipment equipmentScript;
+    private Equipment equipment;
 
     private void Start()
     {
-        equipmentScript = GetComponent<Equipment>();
+        equipment = GetComponent<Equipment>();
         //create equipment list
-        equipmentScript.InitializeEquipptedItemsList();
+        equipment.InitializeEquipptedItemsList();
         //equip stuff
         // EquipItem("Legs", "pants");
     }
 
     public void EquipItem(string itemType, string itemSlug)
     {
-        for (int i = 0; i < equipmentScript.equippedItems.Count; i++)
+        for (int i = 0; i < equipment.equippedItems.Count; i++)
         {
-            if (equipmentScript.equippedItems[i].ItemType == itemType)
+            if (equipment.equippedItems[i].ItemType == itemType)
             {
-                equipmentScript.equippedItems[i] = ItemDatabase.instance.FetchItemBySlug(itemSlug);
-                equipmentScript.AddEquipment(equipmentScript.equippedItems[i]);
+                equipment.equippedItems[i] = ItemDatabase.instance.FetchItemBySlug(itemSlug);
+                equipment.AddEquipment(equipment.equippedItems[i]);
                 break;
             }
         }
@@ -28,11 +28,11 @@ public class ChangeGear : MonoBehaviour
 
     public void UnequipItem(string itemType, string itemSlug)
     {
-        for (int i = 0; i < equipmentScript.equippedItems.Count; i++)
+        for (int i = 0; i < equipment.equippedItems.Count; i++)
         {
-            if (equipmentScript.equippedItems[i].ItemType == itemType)
+            if (equipment.equippedItems[i].ItemType == itemType)
             {
-                equipmentScript.RemoveEquipment(equipmentScript.equippedItems[i]);
+                equipment.RemoveEquipment(equipment.equippedItems[i]);
                 break;
             }
         }
